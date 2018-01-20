@@ -1,7 +1,11 @@
-#Code Challenge
-
 Running the Project
 --------------------
+1) Prerequisite: Have Gradle and Java 8 Installed.
+2) Build the project
+   c:\pragmabrewery>gradle build
+3) Run the server
+   c:\pragmabrewery>gradle bootrun
+4) Access the page: http://localhost:8080
 
 
 What were the questions you would ask and your own answers/assumptions?
