@@ -11,8 +11,9 @@ Running the Project
 What were the questions you would ask and your own answers/assumptions?
 ------------------------------------------------------------------------
 
-Question: How does the real time solution look like ? How do all the parts fit ?
-Answer: The System Architecture is as follows:
+<h2>Question: How does the real time solution look like ? How do all the parts fit ?</h2>
+Answer: 
+The System Architecture is as follows:
 
 Using RasberryPI, connected to temperature sensors ( https://github.com/ControlEverythingCommunity/MCP9805 ),
 will notify the backend servers with the beer name , and temperature, and the status.
