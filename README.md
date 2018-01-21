@@ -31,8 +31,14 @@ The Central Server (Java / SpringBoot Services) will contain two REST services
    </ol>
 
 
-What are the highlights of your logic/code writing style?
------------------------------------------------------------
+What are the highlights of your logic?
+---------------------------------------
+The java code written is for the central server. Even though the sensors, will notify this service of the "beer", "temperature"
+and "status", I have written an extra validation class "BeerStatusValidator". This is a singleton class, which will contain
+the beer temperature rules logic. Ideally these rules can be retrieved from a configurable store, like database or properties file.
+
+Code Writing Style
+--------------------
 + Unit testable Front-end and Back-end code
 + Code follows 'Separation of concerns' style. Relevant classes are placed in its ideal packages.
 + The front end pages are decoupled from the backend services, following a REST architecture.

@@ -32,8 +32,8 @@ public class MockBeerTemperatureData {
 
         BeerTemperatureStatusDTO beer5 = new BeerTemperatureStatusDTO();
         beer5.setBeerName("Wheat beer");
-        beer5.setTemperature(5.0);
-        beer5.setStatus(Constants.ok.toString());
+        beer5.setTemperature(7.0);
+        beer5.setStatus(Constants.alert.toString());
 
         BeerTemperatureStatusDTO beer6 = new BeerTemperatureStatusDTO();
         beer6.setBeerName("Pale Ale");
