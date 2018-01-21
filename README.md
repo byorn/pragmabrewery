@@ -6,6 +6,7 @@ Running the Project
 3) Run the server
    c:\pragmabrewery>gradle bootrun
 4) Access the page: http://localhost:8080
+5) Access Unit Tests: http://localhost:8080/UnitTests.html
 
 
 What were the questions you would ask and your own answers/assumptions?
@@ -25,9 +26,11 @@ A Mobile/Tablet Device on the Truck will retrieve this information from the Back
 
 Javascript is running on the Table UI Interface to notify the truck driver of an error/alert if temperature is high.
 
-Java / SpringBoot Services will have two services
-  1 ) To be notified of the current beer container, temperature and alert status from the sensors.
-  2 ) To display the full list of beer categories and their statuses.
+Java / SpringBoot Services will have two services 
+   <ol>
+     <li> To be notified of the current beer container, temperature and alert status from the sensors. </li>
+     <li> To display the full list of beer categories and their statuses.</li>
+   </ol>
 
 
 What are the highlights of your logic/code writing style?
