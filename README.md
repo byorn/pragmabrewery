@@ -18,11 +18,8 @@ Answer: The System Architecture is as follows:
 ![pragmabrewery](pragmabrewery.png)
 
 Using RasberryPI, connected to temperature sensors ( https://github.com/ControlEverythingCommunity/MCP9805 ),
-will notify the central server with the beer name , and temperature, and the status.
+will notify the central server with the "beer name" , "temperature", and the "status".
 i.e. Each Sensor(PI and Sensor Device) is configured to have the minimum and maximum temperature. If the temperature falls out of this range,then the sensor will notify the central server, of the "beer container", "temperature", and the "status".
-
-A Mobile/Tablet Device on the Truck will retrieve this information from the Central Server.
-
 
 The Central Server (Java / SpringBoot Services) will contain two REST services 
    <ol>
@@ -30,6 +27,7 @@ The Central Server (Java / SpringBoot Services) will contain two REST services
      <li> A service that will return the full list of beer categories and their statuses.</li>
    </ol>
 
+A Mobile/Tablet Device on the Truck will poll every 5 seconds to fetch the beer temperature and status data from the central server.
 
 What are the highlights of your logic?
 ---------------------------------------
