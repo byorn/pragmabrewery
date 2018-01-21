@@ -22,7 +22,7 @@ will notify the central server with the beer name , and temperature, and the sta
 i.e. Each Sensor(PI and Sensor Device) is configured to have the minimum and maximum temperature. If the temperature falls out of this range,then the sensor will notify the central server, of the "beer container", "temperature", and the "status".
 
 A Mobile/Tablet Device on the Truck will retrieve this information from the Central Server.
-Javascript is running on the Table UI Interface to display the error notification.
+
 
 The Central Server (Java / SpringBoot Services) will contain two REST services 
    <ol>
