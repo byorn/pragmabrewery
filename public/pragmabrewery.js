@@ -19,7 +19,7 @@ $(document).ready(function() {
 
                                        for(var i=0;i<len;i++){
 
-                                               txt += "<tr><td>"+data[i].beerName+"</td><td>"+data[i].temperature+"</td><td>"+data[i].status+"</td></tr>";
+                                               txt += "<tr class=' " + getClassForTableRow(data[i].status) + "'><td>"+data[i].beerName+"</td><td>"+data[i].temperature+"</td><td>"+data[i].status+"</td></tr>";
 
                                        }
                                        if(txt != ""){
@@ -32,4 +32,16 @@ $(document).ready(function() {
             });
         console.log("check temp");
     }
+
+
+
+
 });
+
+    function getClassForTableRow(status){
+        if(status=="alert"){
+            return "label-danger";
+        }
+
+        return "";
+    }
