@@ -14,7 +14,7 @@ What were the questions you would ask and your own answers/assumptions?
 <h4>Question: How does the complete solution look like ? How do all the parts fit ?</h4>
 Answer: The System Architecture is as follows:
 
-[![pragmabrewery](pragmabrewery.png)]
+![pragmabrewery](pragmabrewery.png)
 
 Using RasberryPI, connected to temperature sensors ( https://github.com/ControlEverythingCommunity/MCP9805 ),
 will notify the backend servers with the beer name , and temperature, and the status.
