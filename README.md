@@ -14,6 +14,8 @@ What were the questions you would ask and your own answers/assumptions?
 <h4>Question: How does the complete solution look like ? How do all the parts fit ?</h4>
 Answer: The System Architecture is as follows:
 
+[![pragmabrewery](pragmabrewery.png)]
+
 Using RasberryPI, connected to temperature sensors ( https://github.com/ControlEverythingCommunity/MCP9805 ),
 will notify the backend servers with the beer name , and temperature, and the status.
 i.e. Each Sensor(PI and Sensor Device) is configured to have the minimum and maximum temperature. If the temperature falls out of this range,
