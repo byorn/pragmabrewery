@@ -2,8 +2,6 @@ $(document).ready(function() {
 
     checkTemperature();
 
-
-
     function checkTemperature(){
 
             $.ajax({
@@ -34,14 +32,12 @@ $(document).ready(function() {
     }
 
 
-
-
 });
 
-    function getClassForTableRow(status){
+function getClassForTableRow(status){
         if(status=="alert"){
             return "label-danger";
         }
 
         return "";
-    }
+}

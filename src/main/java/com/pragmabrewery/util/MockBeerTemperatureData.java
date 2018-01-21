@@ -8,7 +8,7 @@ import java.util.List;
 public class MockBeerTemperatureData {
 
 
-    public static List<BeerTemperatureStatusDTO> getBeerTemperatureStatusData(){
+    public static List<BeerTemperatureStatusDTO> getBeerTemperatureStatusData() {
         List<BeerTemperatureStatusDTO> beerTemperatureStatusDTOList = new ArrayList<>();
         BeerTemperatureStatusDTO beer1 = new BeerTemperatureStatusDTO();
         beer1.setBeerName("Pilsner");

@@ -7,8 +7,6 @@ public class BeerTemperatureLimitDTO {
     private double maximumThreshold;
 
 
-
-
     public double getMinimumThreshold() {
         return minimumThreshold;
     }

@@ -25,10 +25,9 @@ public class TestSensorController {
     public void testGetBeerTemperature() throws Exception {
 
         this.mockMvc.perform(get("/getBeerTemperature")).andDo(print()).andExpect(status().isOk());
-              // .andExpect(jsonPath("$.data").value("Pilsner"));
+        // .andExpect(jsonPath("$.data").value("Pilsner"));
 
     }
-
 
 
 }
